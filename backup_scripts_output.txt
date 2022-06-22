@@ -28,3 +28,8 @@
 ---- Script: peter@boheme:/home/peter/scripts/run_cppbc_backup.sh
 ---- Description: syncing folder /home/arensburger on cppbc with boheme at /mnt/backup/cppbc without deletion of old stuff
 ---- 04:01:35 06/21/2022 End of CPPBC backup
+
+---- 04:00:01 06/22/2022 Starting CPP website backup
+---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
+---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
+---- 04:00:11 06/22/2022 End of CPP website backup
