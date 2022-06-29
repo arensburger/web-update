@@ -8,3 +8,8 @@
 ---- Script: peter@boheme:/home/peter/scripts/run_cppbc_backup.sh
 ---- Description: syncing folder /home/arensburger on cppbc with boheme at /mnt/backup/cppbc without deletion of old stuff, excluding Dfam libraries
 ---- 04:40:51 06/28/2022 End of CPPBC backup
+
+---- 17:02:43 06/28/2022 Starting Federici computer backup
+---- Script: peter@boheme:/home/peter/scripts/run_federici_backup.sh
+---- Description: syncing Federici lab data with boheme at /mnt/backup/Federici_lab
+---- 17:07:04 06/28/2022 End of Federici backup
