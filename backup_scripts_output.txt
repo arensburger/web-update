@@ -1,0 +1,5 @@
+
+---- 18:54:53 07/07/2022 Starting CPPBC backup
+---- Script: peter@boheme:/home/peter/scripts/run_cppbc_backup.sh
+---- Description: syncing folder /home/arensburger on cppbc with boheme at /mnt/backup/cppbc without deletion of old stuff, excluding Dfam libraries
+---- 18:54:58 07/07/2022 End of CPPBC backup
