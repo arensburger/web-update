@@ -1,7 +1,8 @@
 
----- 11:25:01 07/08/2022 Starting CPPBC backup
+---- 04:00:01 07/12/2022 Starting CPPBC backup
 ---- Script: peter@boheme:/home/peter/scripts/run_cppbc_backup.sh
 ---- Description: syncing folder /home/arensburger on cppbc with boheme at /mnt/backup/cppbc without deletion of old stuff, excluding Dfam libraries
+rsync: failed to open "/mnt/backup/cppbc/.bash_history", continuing: Permission denied (13)
 rsync: failed to set times on "/mnt/backup/cppbc/.cache/abrt": Operation not permitted (1)
 rsync: failed to open "/mnt/backup/cppbc/.cache/abrt/lastnotification", continuing: Permission denied (13)
 rsync: recv_generator: failed to stat "/mnt/backup/cppbc/.cache/pip/selfcheck.json": Permission denied (13)
@@ -17,7 +18,7 @@ rsync: recv_generator: mkdir "/mnt/backup/cppbc/.local/bin" failed: Permission d
 *** Skipping any contents from this failed directory ***
 rsync: recv_generator: mkdir "/mnt/backup/cppbc/.local/lib" failed: Permission denied (13)
 *** Skipping any contents from this failed directory ***
-rsync: mkstemp "/mnt/backup/cppbc/.cache/abrt/.lastnotification.3Pjpq3" failed: Permission denied (13)
+rsync: mkstemp "/mnt/backup/cppbc/.cache/abrt/.lastnotification.Z19UXH" failed: Permission denied (13)
 rsync: recv_generator: mkdir "/mnt/backup/cppbc/.local/share" failed: Permission denied (13)
 *** Skipping any contents from this failed directory ***
 rsync: recv_generator: mkdir "/mnt/backup/cppbc/.pki/nssdb" failed: Permission denied (13)
@@ -30,4 +31,4 @@ rsync: recv_generator: failed to stat "/mnt/backup/cppbc/.ssh/id_rsa": Permissio
 rsync: recv_generator: failed to stat "/mnt/backup/cppbc/.ssh/id_rsa.pub": Permission denied (13)
 rsync: recv_generator: failed to stat "/mnt/backup/cppbc/.ssh/known_hosts": Permission denied (13)
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1677) [generator=3.1.3]
----- 11:25:06 07/08/2022 End of CPPBC backup
+---- 04:00:07 07/12/2022 End of CPPBC backup
