@@ -1,4 +1,3 @@
-xxx
 ---- 04:00:01 07/21/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
 ---- Description: syncing (with deletion) library data from bohme to traviata
 sending incremental file list
