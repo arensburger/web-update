@@ -115,3 +115,4 @@ sending incremental file list
 sent 33,830 bytes  received 235 bytes  68,130.00 bytes/sec
 total size is 784,194,308,842  speedup is 23,020,528.66
 ---- 04:00:02 07/21/2022 End of database sync
+sh: 0: Can't open /home/peter/scripts/run_cppbc_backup.sh
