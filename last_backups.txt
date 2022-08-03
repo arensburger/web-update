@@ -1,3 +1,15 @@
+---- 04:00:01 08/03/2022 Starting CPP website backup
+---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
+---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
+
+Unauthorized use of Cal Poly Pomona computer and networking resources is
+prohibited. If you log on to this computer system, you acknowledge your
+awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
+The University will prosecute violators to the full extent of the law.
+
+---- 04:00:04 08/03/2022 End of CPP website backup
+
+
 ---- 04:00:01 08/02/2022 Starting pq backup
 ---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
 ---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding Dfam libraries
@@ -34,6 +46,7 @@ rsync error: some files/attrs were not transferred (see previous errors) (code 2
 ---- 04:00:06 08/02/2022 End of pq backup
 
 
+
 ---- 04:00:01 07/28/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
 ---- Description: syncing (with deletion) library data from bohme to traviata
 sending incremental file list
@@ -46,19 +59,6 @@ sending incremental file list
 sent 33,830 bytes  received 235 bytes  68,130.00 bytes/sec
 total size is 784,194,308,842  speedup is 23,020,528.66
 ---- 04:00:01 07/28/2022 End of database sync
-
-
-
----- 04:00:01 07/27/2022 Starting CPP website backup
----- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
----- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
-
-Unauthorized use of Cal Poly Pomona computer and networking resources is
-prohibited. If you log on to this computer system, you acknowledge your
-awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
-The University will prosecute violators to the full extent of the law.
-
----- 04:00:06 07/27/2022 End of CPP website backup
 
 
 
