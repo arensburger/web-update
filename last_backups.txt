@@ -1,3 +1,17 @@
+---- 04:00:01 08/18/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from bohme to traviata
+sending incremental file list
+rsync: [Receiver] mkdir "/media/peter/data/Libraries" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+rsync: [Receiver] mkdir "/media/peter/data/Sequencing" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
+rsync: [sender] write error: Broken pipe (32)
+rsync error: error in file IO (code 11) at io.c(829) [sender=3.1.3]
+---- 04:00:02 08/18/2022 End of database sync
+
+
 ---- 04:00:01 08/17/2022 Starting CPP website backup
 ---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
 ---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
@@ -8,6 +22,7 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:04 08/17/2022 End of CPP website backup
+
 
 
 ---- 04:00:01 08/16/2022 Starting pq backup
@@ -48,21 +63,6 @@ rsync error: error in rsync protocol data stream (code 12) at token.c(557) [rece
 rsync: connection unexpectedly closed (57717 bytes received so far) [generator]
 rsync error: error in rsync protocol data stream (code 12) at io.c(235) [generator=3.1.3]
 ---- 04:00:08 08/16/2022 End of pq backup
-
-
-
----- 04:00:01 08/11/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
----- Description: syncing (with deletion) library data from bohme to traviata
-sending incremental file list
-rsync: [Receiver] mkdir "/media/peter/data/Libraries" failed: No such file or directory (2)
-rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
----- Description: syncing (with deletion) sequence data from boheme to traviata
-sending incremental file list
-rsync: [Receiver] mkdir "/media/peter/data/Sequencing" failed: No such file or directory (2)
-rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
-rsync: [sender] write error: Broken pipe (32)
-rsync error: error in file IO (code 11) at io.c(829) [sender=3.1.3]
----- 04:00:02 08/11/2022 End of database sync
 
 
 
