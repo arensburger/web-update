@@ -421,3 +421,14 @@ rsync error: error in rsync protocol data stream (code 12) at token.c(557) [rece
 rsync: connection unexpectedly closed (57717 bytes received so far) [generator]
 rsync error: error in rsync protocol data stream (code 12) at io.c(235) [generator=3.1.3]
 ---- 04:00:06 08/30/2022 End of pq backup
+
+---- 04:00:01 08/31/2022 Starting CPP website backup
+---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
+---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
+
+Unauthorized use of Cal Poly Pomona computer and networking resources is
+prohibited. If you log on to this computer system, you acknowledge your
+awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
+The University will prosecute violators to the full extent of the law.
+
+---- 04:00:06 08/31/2022 End of CPP website backup
