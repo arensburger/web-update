@@ -432,3 +432,17 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:06 08/31/2022 End of CPP website backup
+-bash: /home/peter/scripts/run_sync_data.sh: Permission denied
+
+---- 04:00:01 09/01/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from bohme to traviata
+sending incremental file list
+
+sent 111,557 bytes  received 482 bytes  74,692.67 bytes/sec
+total size is 355,220,420,372  speedup is 3,170,506.88
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 33,830 bytes  received 235 bytes  68,130.00 bytes/sec
+total size is 784,194,308,842  speedup is 23,020,528.66
+---- 04:00:02 09/01/2022 End of database sync
