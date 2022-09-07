@@ -496,3 +496,42 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:06 09/07/2022 End of CPP website backup
+
+---- 09:48:15 09/07/2022 Starting pq backup
+---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
+---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding Dfam libraries
+rsync: failed to set times on "/mnt/backup/pq/.cache": Operation not permitted (1)
+rsync: recv_generator: mkdir "/mnt/backup/pq/.cache/abrt" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: recv_generator: mkdir "/mnt/backup/pq/.cache/pip" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: failed to set times on "/mnt/backup/pq/.config/enchant": Operation not permitted (1)
+rsync: recv_generator: failed to stat "/mnt/backup/pq/.config/enchant/en_US.dic": Permission denied (13)
+rsync: recv_generator: failed to stat "/mnt/backup/pq/.config/enchant/en_US.exc": Permission denied (13)
+rsync: failed to set times on "/mnt/backup/pq/.cpan/build": Operation not permitted (1)
+rsync: recv_generator: mkdir "/mnt/backup/pq/.cpan/build/File-Temp-0.2311-0jy04e" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: recv_generator: mkdir "/mnt/backup/pq/.cpan/build/Text-CSV-2.02-_4SAPq" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: failed to set times on "/mnt/backup/pq/.cpan/sources/authors": Operation not permitted (1)
+rsync: failed to set times on "/mnt/backup/pq/.cpan/sources/authors/id": Operation not permitted (1)
+rsync: recv_generator: mkdir "/mnt/backup/pq/.cpan/sources/authors/id/E" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: failed to set times on "/mnt/backup/pq/.cpan/sources/authors/id/I/IS/ISHIGAKI": Operation not permitted (1)
+rsync: failed to set times on "/mnt/backup/pq/.cpan/sources/modules": Operation not permitted (1)
+rsync: failed to set times on "/mnt/backup/pq/.dbus": Operation not permitted (1)
+rsync: recv_generator: mkdir "/mnt/backup/pq/.dbus/session-bus" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: failed to set times on "/mnt/backup/pq/.local": Operation not permitted (1)
+rsync: recv_generator: mkdir "/mnt/backup/pq/.local/bin" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: recv_generator: mkdir "/mnt/backup/pq/.local/lib" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: mkstemp "/mnt/backup/pq/.cpan/.Metadata.mg6r0s" failed: Permission denied (13)
+rsync: mkstemp "/mnt/backup/pq/.cpan/sources/authors/.01mailrc.txt.gz.xtp8jv" failed: Permission denied (13)
+rsync: mkstemp "/mnt/backup/pq/.cpan/sources/authors/id/I/IS/ISHIGAKI/.CHECKSUMS.L6E3ht" failed: Permission denied (13)
+inflate returned -3 (4 bytes)
+rsync error: error in rsync protocol data stream (code 12) at token.c(557) [receiver=3.1.3]
+rsync: connection unexpectedly closed (57699 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(235) [generator=3.1.3]
+---- 09:48:19 09/07/2022 End of pq backup
