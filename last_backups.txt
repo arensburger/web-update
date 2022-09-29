@@ -1,3 +1,22 @@
+---- 04:00:01 09/29/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from bohme to traviata
+sending incremental file list
+
+sent 112,035 bytes  received 482 bytes  225,034.00 bytes/sec
+total size is 355,220,420,372  speedup is 3,157,037.78
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 34,256 bytes  received 235 bytes  22,994.00 bytes/sec
+total size is 784,194,308,842  speedup is 22,736,201.00
+---- Description: syncing (without deletion) TEs from faust to boheme
+receiving incremental file list
+
+sent 678 bytes  received 140,007 bytes  281,370.00 bytes/sec
+total size is 29,984,066,092  speedup is 213,129.09
+---- 04:00:02 09/29/2022 End of database sync
+
+
 ---- 04:00:01 09/28/2022 Starting CPP website backup
 ---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
 ---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
@@ -8,6 +27,7 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:07 09/28/2022 End of CPP website backup
+
 
 
 ---- 04:00:01 09/27/2022 Starting pq backup
@@ -48,21 +68,6 @@ rsync error: error in rsync protocol data stream (code 12) at token.c(603) [rece
 rsync: connection unexpectedly closed (57709 bytes received so far) [generator]
 rsync error: error in rsync protocol data stream (code 12) at io.c(228) [generator=3.2.3]
 ---- 04:00:06 09/27/2022 End of pq backup
-
-
-
----- 04:00:01 09/22/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
----- Description: syncing (with deletion) library data from bohme to traviata
-sending incremental file list
-
-sent 112,047 bytes  received 482 bytes  225,058.00 bytes/sec
-total size is 355,220,420,372  speedup is 3,156,701.12
----- Description: syncing (with deletion) sequence data from boheme to traviata
-sending incremental file list
-
-sent 34,256 bytes  received 235 bytes  68,982.00 bytes/sec
-total size is 784,194,308,842  speedup is 22,736,201.00
----- 04:00:01 09/22/2022 End of database sync
 
 
 
