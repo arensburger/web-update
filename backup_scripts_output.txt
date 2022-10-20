@@ -2890,3 +2890,15 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:05 10/19/2022 End of CPP website backup
+
+---- 04:00:01 10/20/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from bohme to traviata
+sending incremental file list
+rsync: [Receiver] mkdir "/media/peter/data/Libraries" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+rsync: [Receiver] mkdir "/media/peter/data/Sequencing" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(787) [Receiver=3.2.3]
+---- Description: syncing (without deletion) TEs from faust to boheme
+---- 04:00:02 10/20/2022 End of database sync
