@@ -1,3 +1,18 @@
+---- 04:00:01 11/17/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from boheme to traviata
+sending incremental file list
+
+sent 112,047 bytes  received 482 bytes  45,011.60 bytes/sec
+total size is 355,220,420,372  speedup is 3,156,701.12
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 34,260 bytes  received 235 bytes  68,990.00 bytes/sec
+total size is 784,194,308,842  speedup is 22,733,564.54
+---- Description: syncing (without deletion) TEs from faust to boheme
+---- 04:00:04 11/17/2022 End of database sync
+
+
 ---- 04:00:01 11/16/2022 Starting CPP website backup
 ---- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
 ---- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
@@ -8,6 +23,7 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:05 11/16/2022 End of CPP website backup
+
 
 
 ---- 04:00:01 11/15/2022 Starting pq backup
@@ -48,20 +64,6 @@ rsync error: error in rsync protocol data stream (code 12) at token.c(603) [rece
 rsync: connection unexpectedly closed (57731 bytes received so far) [generator]
 rsync error: error in rsync protocol data stream (code 12) at io.c(228) [generator=3.2.3]
 ---- 04:00:06 11/15/2022 End of pq backup
-
-
-
----- 04:00:01 11/10/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
----- Description: syncing (with deletion) library data from boheme to traviata
-ssh: connect to host traviata port 22: No route to host
-rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-rsync error: unexplained error (code 255) at io.c(228) [sender=3.2.3]
----- Description: syncing (with deletion) sequence data from boheme to traviata
-ssh: connect to host traviata port 22: No route to host
-rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-rsync error: unexplained error (code 255) at io.c(228) [sender=3.2.3]
----- Description: syncing (without deletion) TEs from faust to boheme
----- 04:00:09 11/10/2022 End of database sync
 
 
 
