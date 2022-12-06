@@ -3284,3 +3284,42 @@ sent 34,256 bytes  received 235 bytes  68,982.00 bytes/sec
 total size is 784,194,308,842  speedup is 22,736,201.00
 ---- Description: syncing (without deletion) TEs from faust to boheme
 ---- 04:00:02 12/01/2022 End of database sync
+
+---- 04:00:01 12/06/2022 Starting pq backup
+---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
+---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding Dfam libraries
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cache": Operation not permitted (1)
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.cache/abrt" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.cache/pip" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] failed to set times on "/mnt/backup/pq/.config/enchant": Operation not permitted (1)
+rsync: [generator] recv_generator: failed to stat "/mnt/backup/pq/.config/enchant/en_US.dic": Permission denied (13)
+rsync: [generator] recv_generator: failed to stat "/mnt/backup/pq/.config/enchant/en_US.exc": Permission denied (13)
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cpan/build": Operation not permitted (1)
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.cpan/build/File-Temp-0.2311-0jy04e" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.cpan/build/Text-CSV-2.02-_4SAPq" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cpan/sources/authors": Operation not permitted (1)
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cpan/sources/authors/id": Operation not permitted (1)
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.cpan/sources/authors/id/E" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cpan/sources/authors/id/I/IS/ISHIGAKI": Operation not permitted (1)
+rsync: [generator] failed to set times on "/mnt/backup/pq/.cpan/sources/modules": Operation not permitted (1)
+rsync: [generator] failed to set times on "/mnt/backup/pq/.dbus": Operation not permitted (1)
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.dbus/session-bus" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] failed to set times on "/mnt/backup/pq/.local": Operation not permitted (1)
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.local/bin" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [generator] recv_generator: mkdir "/mnt/backup/pq/.local/lib" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+rsync: [receiver] mkstemp "/mnt/backup/pq/.cpan/.Metadata.NEaT2G" failed: Permission denied (13)
+rsync: [receiver] mkstemp "/mnt/backup/pq/.cpan/sources/authors/.01mailrc.txt.gz.YGV3y2" failed: Permission denied (13)
+rsync: [receiver] mkstemp "/mnt/backup/pq/.cpan/sources/authors/id/I/IS/ISHIGAKI/.CHECKSUMS.FtcIUc" failed: Permission denied (13)
+inflate returned -3 (4 bytes)
+rsync error: error in rsync protocol data stream (code 12) at token.c(603) [receiver=3.2.3]
+rsync: connection unexpectedly closed (57701 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(228) [generator=3.2.3]
+---- 04:00:06 12/06/2022 End of pq backup
