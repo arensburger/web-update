@@ -3535,3 +3535,15 @@ Host key verification failed.
 rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
 rsync error: unexplained error (code 255) at io.c(228) [Receiver=3.2.3]
 ---- 04:00:01 12/28/2022 End of CPP website backup
+
+---- 04:00:01 12/29/2022 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from boheme to traviata
+ssh: connect to host traviata port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(228) [sender=3.2.3]
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+ssh: connect to host traviata port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(228) [sender=3.2.3]
+---- Description: syncing (without deletion) TEs from faust to boheme
+---- 04:00:07 12/29/2022 End of database sync
