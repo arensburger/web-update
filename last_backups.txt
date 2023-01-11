@@ -52,27 +52,3 @@ rsync error: unexplained error (code 255) at io.c(228) [sender=3.2.3]
 
 
 
----- 04:00:01 01/04/2023 Starting CPP website backup
----- Script: peter@boheme:/home/peter/scripts/run_cpp-website_backup.sh
----- Description: making a mirror copy of CPP website to bohome /mnt/backup/cpp-website
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:xPb1GUKiFVgIwfmHcYl2ofiDmRKmKkfac0kXw/BILEc.
-Please contact your system administrator.
-Add correct host key in /home/peter/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /home/peter/.ssh/known_hosts:7
-  remove with:
-  ssh-keygen -f "/home/peter/.ssh/known_hosts" -R "login.cpp.edu"
-Host key for login.cpp.edu has changed and you have requested strict checking.
-Host key verification failed.
-rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
-rsync error: unexplained error (code 255) at io.c(228) [Receiver=3.2.3]
----- 04:00:01 01/04/2023 End of CPP website backup
-
-
-
