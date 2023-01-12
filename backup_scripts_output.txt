@@ -3659,3 +3659,17 @@ rsync error: error in rsync protocol data stream (code 12) at token.c(603) [rece
 rsync: connection unexpectedly closed (57701 bytes received so far) [generator]
 rsync error: error in rsync protocol data stream (code 12) at io.c(228) [generator=3.2.3]
 ---- 04:00:09 01/10/2023 End of pq backup
+
+---- 04:00:01 01/12/2023 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from boheme to traviata
+sending incremental file list
+
+sent 112,047 bytes  received 482 bytes  45,011.60 bytes/sec
+total size is 355,220,420,372  speedup is 3,156,701.12
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 34,260 bytes  received 235 bytes  68,990.00 bytes/sec
+total size is 784,194,308,842  speedup is 22,733,564.54
+---- Description: syncing (without deletion) TEs from faust to boheme
+---- 04:00:05 01/12/2023 End of database sync
