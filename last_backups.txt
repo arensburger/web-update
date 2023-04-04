@@ -1,3 +1,9 @@
+---- 04:00:01 04/04/2023 Starting pq backup
+---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
+---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding some files that are listed in pq_exclude_list.txt
+---- 04:00:05 04/04/2023 End of pq backup
+
+
 ---- 04:00:01 03/30/2023 Starting  syncing Libraries and Sequencing from boheme to traviata
 ---- Description: syncing (with deletion) library data from boheme to traviata
 sending incremental file list
@@ -11,12 +17,6 @@ sent 34,260 bytes  received 235 bytes  22,996.67 bytes/sec
 total size is 784,194,308,842  speedup is 22,733,564.54
 ---- Description: syncing (without deletion) TEs from faust to boheme
 ---- 04:00:04 03/30/2023 End of database sync
-
-
----- 04:00:01 03/28/2023 Starting pq backup
----- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
----- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding some files that are listed in pq_exclude_list.txt
----- 04:00:08 03/28/2023 End of pq backup
 
 
 
