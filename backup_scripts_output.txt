@@ -4500,3 +4500,17 @@ total size is 784,194,308,842  speedup is 22,736,201.00
 ---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
 ---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding some files that are listed in pq_exclude_list.txt
 ---- 04:00:05 04/25/2023 End of pq backup
+
+---- 04:00:01 04/27/2023 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from boheme to traviata
+sending incremental file list
+
+sent 112,047 bytes  received 482 bytes  75,019.33 bytes/sec
+total size is 355,220,420,372  speedup is 3,156,701.12
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 34,260 bytes  received 235 bytes  22,996.67 bytes/sec
+total size is 784,194,308,842  speedup is 22,733,564.54
+---- Description: syncing (without deletion) TEs from faust to boheme
+---- 04:00:03 04/27/2023 End of database sync
