@@ -4558,3 +4558,33 @@ sent 34,260 bytes  received 235 bytes  68,990.00 bytes/sec
 total size is 784,194,308,842  speedup is 22,733,564.54
 ---- Description: syncing (without deletion) TEs from faust to boheme
 ---- 04:00:03 05/04/2023 End of database sync
+
+---- 04:00:01 05/09/2023 Starting pq backup
+---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
+---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding some files that are listed in pq_exclude_list.txt
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-1" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-2" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-3" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-4" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-5" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_RepeatModeler/RM_35083.MonJun271557022022/round-6" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_TEs" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_TEstructure" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep3_grf" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Ptep_sRNA_map" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/Python-3.6.5" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/R" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/RNAseq-clean" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/arensburger" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/bin" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/co" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/db" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/include" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/lib" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/libexec" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/miniconda3" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/ncbi" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/perl5" failed: Permission denied (13)
+rsync: opendir "/home/arensburger/arensburger/utilities" failed: Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1865) [generator=3.2.7]
+---- 04:00:04 05/09/2023 End of pq backup
