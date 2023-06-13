@@ -4678,3 +4678,8 @@ sent 34,260 bytes  received 235 bytes  68,990.00 bytes/sec
 total size is 784,194,308,842  speedup is 22,733,564.54
 ---- Description: syncing (without deletion) TEs from faust to boheme
 ---- 04:00:04 06/08/2023 End of database sync
+
+---- 04:00:01 06/13/2023 Starting pq backup
+---- Script: peter@boheme:/home/peter/scripts/run_pq_backup.sh
+---- Description: syncing folder /home/arensburger on pq with boheme at /mnt/backup/pq without deletion of old stuff, excluding some files that are listed in pq_exclude_list.txt
+---- 04:00:05 06/13/2023 End of pq backup
