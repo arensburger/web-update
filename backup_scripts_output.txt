@@ -4960,3 +4960,14 @@ sent 34,256 bytes  received 235 bytes  68,982.00 bytes/sec
 total size is 784,194,308,842  speedup is 22,736,201.00
 ---- Description: syncing (without deletion) TEs from faust to boheme
 ---- 04:00:03 09/14/2023 End of database sync
+
+---- 04:00:01 09/19/2023 Starting hpc backup
+---- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
+---- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
+
+Unauthorized use of Cal Poly Pomona computer and networking resources is
+prohibited. If you log on to this computer system, you acknowledge your
+awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
+The University will prosecute violators to the full extent of the law.
+
+---- 04:01:40 09/19/2023 End of hpc backup
