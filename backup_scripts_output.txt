@@ -5601,3 +5601,22 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:01:45 03/05/2024 End of hpc backup
+
+---- 04:00:01 03/07/2024 Starting  syncing Libraries and Sequencing from boheme to traviata
+---- Description: syncing (with deletion) library data from boheme to traviata
+sending incremental file list
+
+sent 112,047 bytes  received 482 bytes  75,019.33 bytes/sec
+total size is 355,220,420,372  speedup is 3,156,701.12
+---- Description: syncing (with deletion) sequence data from boheme to traviata
+sending incremental file list
+
+sent 34,256 bytes  received 235 bytes  68,982.00 bytes/sec
+total size is 784,194,308,842  speedup is 22,736,201.00
+---- Description: syncing (with deletion) Federici data  from boheme to traviata
+sending incremental file list
+
+sent 375,827 bytes  received 2,489 bytes  252,210.67 bytes/sec
+total size is 226,508,056,512  speedup is 598,727.14
+---- Description: syncing (without deletion) TEs (and protein_TEs) from faust to boheme
+---- 04:00:03 03/07/2024 End of database sync
