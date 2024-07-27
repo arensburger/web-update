@@ -8125,3 +8125,56 @@ sent 375,827 bytes  received 2,489 bytes  151,326.40 bytes/sec
 total size is 226,508,056,512  speedup is 598,727.14
 ---- Description: syncing (without deletion) TEs (and protein_TEs) from faust to boheme
 ---- 04:00:05 07/25/2024 End of database sync
+
+---- 04:00:01 07/27/2024 Starting  email backup
+---- Description: updating thunderbird then copying and compressing the .thunderbird directory to /mnt/backup
+---- Description: updating thunderbird for 30 seconds in headlesss mode
+*** You are running in headless mode.
+[ImapModuleLoader] Using nsImapService.cpp
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: "Assert failed: Calendar manager initialised calendars before loadCalendarComponent ran on the first 3pane window. This should not happen.\n "
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.debug: "Found 0 public keys and 0 secret keys (0 protected, 0 unprotected)"
+console.debug: "Successfully loaded optional OpenPGP library libgpgme.so.11 from system's standard library locations"
+console.debug: "gpgme version: 1.16.0"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+tabs.onRemoved event fired after context unloaded.
+JavaScript error: resource://gre/modules/ConduitsChild.sys.mjs, line 108: Error: sendRemoveListener on closed conduit owl@beonex.com.137438953472
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.log: WebExtensions: sending to server:
+console.log: WebExtensions: {"message":"Actor 'Conduits' destroyed before query 'RunListener' was resolved","type":20,"stack":"getStack@/webapi/webaccount/errorLog.js:82:27\nlogErrorToServer@/webapi/webaccount/errorLog.js:59:14\nlogError@/webapi/webaccount/errorLog.js:19:11\nReportException@/webapi/webaccount/webaccount.js:68:11\ngetNewMessages@/webapi/webaccount/folder.js:1564:22\n","app":"owl","version":"1.2.4","hostAppVersion":"115.13.0","user":"parensburger@cpp.edu","exchangeURL":"https://outlook.office.com/owa/"}
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: (new TypeError("messenger is undefined", "resource://gdata-provider/legacy/modules/gdataCalendar.jsm", 767))
+console.warn: Calendar: [calGoogleCalendar] 2024-07-31T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-31T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-31T14:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-31T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-27T10:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-27T11:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-20T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-20T18:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-20T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-20T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-29T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-07-29T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+[Parent 353253, Main Thread] WARNING: Failed to connect to proxy: 'glib warning', file /build/thunderbird-yXJQ3s/thunderbird-115.13.0+build5/toolkit/xre/nsSigHandlers.cpp:167
+
+(thunderbird:353253): libnotify-WARNING **: 04:00:09.903: Failed to connect to proxy
+console.error: mail.notification: ({})
+JavaScript error: chrome://messenger/content/newmailalert.js, line 43: NS_ERROR_XPC_GS_RETURNED_FAILURE: ServiceManager::GetService returned failure code:
+---- Description: compressing and copying the .thunderbird directory to /mnt/data/backups
+tar: Removing leading `/' from member names
+---- 04:02:54 07/27/2024 End of mail backup
