@@ -9140,3 +9140,264 @@ sent 375,823 bytes  received 2,489 bytes  252,208.00 bytes/sec
 total size is 226,508,056,512  speedup is 598,733.47
 ---- Description: syncing (without deletion) TEs (and protein_TEs) from faust to boheme
 ---- 04:00:03 08/15/2024 End of database sync
+
+---- 04:00:01 08/17/2024 Starting  email backup
+---- Description: updating thunderbird then copying and compressing the .thunderbird directory to /mnt/backup
+---- Description: updating thunderbird for 30 seconds in headlesss mode
+*** You are running in headless mode.
+[ImapModuleLoader] Using nsImapService.cpp
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: "Assert failed: Calendar manager initialised calendars before loadCalendarComponent ran on the first 3pane window. This should not happen.\n "
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.debug: "Found 0 public keys and 0 secret keys (0 protected, 0 unprotected)"
+console.debug: "Successfully loaded optional OpenPGP library libgpgme.so.11 from system's standard library locations"
+console.debug: "gpgme version: 1.16.0"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: Calendar: [calGoogleCalendar] 2024-08-15T20:20:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-15T22:20:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2010-10-05T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2010-10-05T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-14T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-14T18:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-14T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-21T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-21T18:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-07-21T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-08-30T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-08-30T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-08-30T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-24T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-24T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-24T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-10-25T09:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-10-25T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-10-25T09:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-10-25T09:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-10-25T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-01T09:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-01T09:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-01T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-15T09:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-15T09:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-15T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-22T09:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-22T09:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-22T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-29T09:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-29T09:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2014-11-29T12:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-08-17T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-08-17T18:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-17T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-17T20:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-05T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-05T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-05T18:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-06-19T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-06-19T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-11T17:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-11T18:15:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2025-05-29T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2025-05-29T21:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-10T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-10T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-10T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-20T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-20T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-20T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-07T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-07T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-07T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-26T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-26T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-26T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-28T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-28T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-03-28T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-17T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-17T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-17T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-31T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-31T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-31T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-18T14:45:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-18T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-25T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-25T20:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-18T14:45:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-18T14:45:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-18T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T14:45:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T16:45:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-15T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-22T14:45:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-22T14:45:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-22T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-08-02T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-08-02T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-08-02T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-05T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-05T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-05T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-27T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-27T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-27T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-08T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-08T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-08T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-08-15T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-08-15T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-08-29T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-08-29T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2013-08-29T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-06T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-06T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-06T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-12T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-12T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-07-12T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-03T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-03T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-17T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-17T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-24T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-24T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-08T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-08T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-22T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-22T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-05T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-05T13:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-19T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-19T13:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-12-03T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-12-03T13:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-16T05:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-08-16T06:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-21T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-21T15:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-12T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-12T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-12T15:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-19T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-19T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-10-19T15:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-04T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-04T15:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-04T16:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-12T14:35:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-09-12T17:05:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-02T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-02T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-02T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-13T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-13T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-13T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-19T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-19T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-19T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-23T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-23T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-23T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-21T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-21T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-21T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-27T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-27T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+[Parent 504865, Main Thread] WARNING: Failed to connect to proxy: 'glib warning', file /build/thunderbird-yXJQ3s/thunderbird-115.13.0+build5/toolkit/xre/nsSigHandlers.cpp:167
+
+(thunderbird:504865): libnotify-WARNING **: 04:00:05.700: Failed to connect to proxy
+console.error: mail.notification: ({})
+console.warn: Calendar: [calGoogleCalendar] 2016-09-27T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-27T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-27T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-29T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-29T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2016-09-29T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-09T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-20T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-20T19:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-22T19:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-28T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-28T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-28T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-08T15:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-08T15:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-06-07T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-06-07T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-06-07T15:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-02-20T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-16T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-01T14:40:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-01T15:40:00-08:00 does not match timezone offset for America/Los_Angeles
+JavaScript error: chrome://messenger/content/newmailalert.js, line 43: NS_ERROR_XPC_GS_RETURNED_FAILURE: ServiceManager::GetService returned failure code:
+console.warn: Calendar: [calGoogleCalendar] 2012-04-05T14:40:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-04-05T14:40:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-04-05T15:40:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-21T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-21T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-21T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-28T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-28T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-11-28T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-26T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-26T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-26T17:05:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-08T12:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-08T13:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-22T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-22T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-03-22T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-05-31T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-05-31T12:30:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-05-31T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-14T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-14T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2011-12-14T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-21T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-09-21T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-23T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-23T12:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-11-23T13:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-11T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-11T14:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2012-01-11T15:35:00-08:00 does not match timezone offset for America/Los_Angeles
+console.error: mail.activity: "OnDownloadError: Inbox of arensburger2@gmail.com\n"
+---- Description: compressing and copying the .thunderbird directory to /mnt/data/backups
+tar: Removing leading `/' from member names
+---- 04:02:51 08/17/2024 End of mail backup
