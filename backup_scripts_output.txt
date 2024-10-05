@@ -10471,3 +10471,72 @@ sent 375,827 bytes  received 2,489 bytes  756,632.00 bytes/sec
 total size is 226,508,056,512  speedup is 598,727.14
 ---- Description: syncing (without deletion) TEs (and protein_TEs) from faust to boheme
 ---- 04:00:03 10/03/2024 End of database sync
+
+---- 04:00:01 10/05/2024 Starting  email backup
+---- Description: updating thunderbird then copying and compressing the .thunderbird directory to /mnt/backup
+---- Description: updating thunderbird for 30 seconds in headlesss mode
+*** You are running in headless mode.
+[ImapModuleLoader] Using nsImapService.cpp
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: "Assert failed: Calendar manager initialised calendars before loadCalendarComponent ran on the first 3pane window. This should not happen.\n "
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Sent%20Items"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Drafts"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Archives"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.error: "getOrCreateFolderForURL: factory not registered for owl://parensburger%40cpp.edu@outlook.office365.com/Templates"
+console.debug: "Found 0 public keys and 0 secret keys (0 protected, 0 unprotected)"
+console.debug: "Successfully loaded optional OpenPGP library libgpgme.so.11 from system's standard library locations"
+console.debug: "gpgme version: 1.16.0"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: Calendar: [calGoogleCalendar] 2025-01-16T08:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2025-01-16T09:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 1999-12-31T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2000-01-01T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 1999-12-31T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2000-01-01T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-01T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-01T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-11T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-11T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 1999-12-31T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2000-01-01T16:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-30T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-30T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-30T18:50:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-25T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-25T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-25T18:50:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-04T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-04T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-04T18:50:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-18T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-18T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-18T18:50:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-11T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-11T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-09-11T18:50:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-06T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-06T17:00:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-06T18:50:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-15T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-15T16:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-29T15:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-29T17:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-08T12:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-10-08T13:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-02T10:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-11-02T11:00:00-07:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-12-06T10:30:00-08:00 does not match timezone offset for America/Los_Angeles
+console.warn: Calendar: [calGoogleCalendar] 2024-12-06T11:30:00-08:00 does not match timezone offset for America/Los_Angeles
+[Parent 221173, Main Thread] WARNING: Failed to connect to proxy: 'glib warning', file /build/thunderbird-JW3pgz/thunderbird-115.15.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(thunderbird:221173): libnotify-WARNING **: 04:00:06.838: Failed to connect to proxy
+console.error: mail.notification: ({})
+JavaScript error: chrome://messenger/content/newmailalert.js, line 43: NS_ERROR_XPC_GS_RETURNED_FAILURE: ServiceManager::GetService returned failure code:
+---- Description: compressing and copying the .thunderbird directory to /mnt/data/backups
+tar: Removing leading `/' from member names
+---- 04:02:55 10/05/2024 End of mail backup
