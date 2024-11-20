@@ -1,3 +1,9 @@
+---- 04:00:01 11/20/2024 Starting faust backup
+---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
+---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 04:34:22 11/20/2024 End of faust backup
+
+
 ---- 04:00:01 11/19/2024 Starting hpc backup
 ---- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
 ---- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
@@ -10,17 +16,11 @@ The University will prosecute violators to the full extent of the law.
 ---- 04:00:52 11/19/2024 End of hpc backup
 
 
+
 ---- 04:00:01 11/14/2024 Starting traviata backup
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:05 11/14/2024 End of traviata backup
-
-
-
----- 04:00:01 11/13/2024 Starting faust backup
----- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
----- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
----- 04:00:12 11/13/2024 End of faust backup
 
 
 
