@@ -1,7 +1,28 @@
+---- 16:17:26 12/01/2024 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 16:17:26 12/01/2024 End of traviata backup
+
+---- 16:19:42 12/01/2024 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk _usage.sh
+---- Description: Getting disk usage of backup on /mnt/backup
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
+---- 16:19:42 12/01/2024 End of disk usage
+
+---- 16:21:24 12/01/2024 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk _usage.sh
+---- Description: Getting disk usage of backup on /mnt/backup
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
+---- 16:21:24 12/01/2024 End of disk usage
+
+
 ---- 04:00:01 11/28/2024 Starting traviata backup
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:02 11/28/2024 End of traviata backup
+
 
 
 ---- 04:00:01 11/27/2024 Starting faust backup
