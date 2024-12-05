@@ -11723,3 +11723,14 @@ The University will prosecute violators to the full extent of the law.
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:46 12/04/2024 End of faust backup
+
+---- 04:00:01 12/05/2024 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk _usage.sh
+---- Description: Getting disk usage of backup on /mnt/backup
+
+---- 04:00:01 12/05/2024 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
+---- 04:00:01 12/05/2024 End of disk usage
