@@ -11734,3 +11734,4 @@ The University will prosecute violators to the full extent of the law.
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
 ---- 04:00:01 12/05/2024 End of disk usage
+---- 04:00:02 12/05/2024 End of traviata backup
