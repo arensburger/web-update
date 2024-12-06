@@ -11735,3 +11735,14 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
 ---- 04:00:01 12/05/2024 End of disk usage
 ---- 04:00:02 12/05/2024 End of traviata backup
+
+---- 04:00:01 12/06/2024 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+sh: 0: cannot open link_duplicates.sh: No such file
+sh: 0: cannot open link_duplicates.sh: No such file
+sh: 0: cannot open link_duplicates.sh: No such file
+sh: 0: cannot open link_duplicates.sh: No such file
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  615G  2.0T  24% /mnt/backup
+---- 04:00:01 12/06/2024 End of disk usage
