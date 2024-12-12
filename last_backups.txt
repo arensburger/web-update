@@ -1,7 +1,14 @@
+---- 04:00:01 12/12/2024 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 04:00:23 12/12/2024 End of traviata backup
+
+
 ---- 04:00:01 12/11/2024 Starting faust backup
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:50:27 12/11/2024 End of faust backup
+
 
 
 ---- 04:00:01 12/10/2024 Starting hpc backup
@@ -14,27 +21,6 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:01:21 12/10/2024 End of hpc backup
-
-
-
----- 04:00:01 12/05/2024 Starting traviata backup
----- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
----- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda2       2.7T  650G  2.0T  25% /mnt/backup
----- 04:00:01 12/05/2024 End of disk usage
----- 04:00:02 12/05/2024 End of traviata backup
-
----- 04:00:01 12/06/2024 Disk usage on boheme for /mnt/backup
----- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
----- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
-sh: 0: cannot open link_duplicates.sh: No such file
-sh: 0: cannot open link_duplicates.sh: No such file
-sh: 0: cannot open link_duplicates.sh: No such file
-sh: 0: cannot open link_duplicates.sh: No such file
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda2       2.7T  615G  2.0T  24% /mnt/backup
----- 04:00:01 12/06/2024 End of disk usage
 
 
 
