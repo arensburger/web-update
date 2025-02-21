@@ -3,6 +3,39 @@
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:28 02/20/2025 End of traviata backup
 
+---- 04:00:01 02/21/2025 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+Now scanning "/mnt/backup/traviata", found 9593 files.
+Now have 9593 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 6154505701 bytes or 6 GiB
+Removed 1992 files due to unique sizes from list. 7601 files left.
+Now eliminating candidates based on first bytes: removed 2742 files from list. 4859 files left.
+Now eliminating candidates based on last bytes: removed 15 files from list. 4844 files left.
+Now eliminating candidates based on sha1 checksum: removed 380 files from list. 4464 files left.
+It seems like you have 4464 files that are not unique
+Totally, 3 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 2286 links.
+Now scanning "/mnt/backup/faust", found 300671 files.
+Now have 300671 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 276307029824 bytes or 257 GiB
+Removed 18961 files due to unique sizes from list. 281710 files left.
+Now eliminating candidates based on first bytes: removed 226053 files from list. 55657 files left.
+Now eliminating candidates based on last bytes: removed 283 files from list. 55374 files left.
+Now eliminating candidates based on sha1 checksum: removed 690 files from list. 54684 files left.
+It seems like you have 54684 files that are not unique
+Totally, 92 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 36880 links.
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  375G  2.2T  15% /mnt/backup
+---- 04:28:36 02/21/2025 End of disk usage
+
 
 ---- 04:00:01 02/19/2025 Starting faust backup
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
