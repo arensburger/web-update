@@ -12933,3 +12933,36 @@ The University will prosecute violators to the full extent of the law.
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:21 04/10/2025 End of traviata backup
+
+---- 04:00:01 04/11/2025 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+Now scanning "/mnt/backup/traviata", found 9412 files.
+Now have 9412 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 6114577715 bytes or 6 GiB
+Removed 2057 files due to unique sizes from list. 7355 files left.
+Now eliminating candidates based on first bytes: removed 2751 files from list. 4604 files left.
+Now eliminating candidates based on last bytes: removed 16 files from list. 4588 files left.
+Now eliminating candidates based on sha1 checksum: removed 382 files from list. 4206 files left.
+It seems like you have 4206 files that are not unique
+Totally, 2 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 2105 links.
+Now scanning "/mnt/backup/faust", found 300504 files.
+Now have 300504 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 330571037389 bytes or 308 GiB
+Removed 36020 files due to unique sizes from list. 264484 files left.
+Now eliminating candidates based on first bytes: removed 235673 files from list. 28811 files left.
+Now eliminating candidates based on last bytes: removed 873 files from list. 27938 files left.
+Now eliminating candidates based on sha1 checksum: removed 980 files from list. 26958 files left.
+It seems like you have 26958 files that are not unique
+Totally, 51 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 15685 links.
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  601G  2.0T  24% /mnt/backup
+---- 04:19:12 04/11/2025 End of disk usage
