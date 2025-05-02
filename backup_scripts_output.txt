@@ -13095,3 +13095,36 @@ The University will prosecute violators to the full extent of the law.
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:21 05/01/2025 End of traviata backup
+
+---- 04:00:02 05/02/2025 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+Now scanning "/mnt/backup/traviata", found 9413 files.
+Now have 9413 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 6114621166 bytes or 6 GiB
+Removed 2056 files due to unique sizes from list. 7357 files left.
+Now eliminating candidates based on first bytes: removed 2751 files from list. 4606 files left.
+Now eliminating candidates based on last bytes: removed 16 files from list. 4590 files left.
+Now eliminating candidates based on sha1 checksum: removed 382 files from list. 4208 files left.
+It seems like you have 4208 files that are not unique
+Totally, 2 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 2106 links.
+Now scanning "/mnt/backup/faust", found 289765 files.
+Now have 289765 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 318773331076 bytes or 297 GiB
+Removed 15358 files due to unique sizes from list. 274407 files left.
+Now eliminating candidates based on first bytes: removed 233872 files from list. 40535 files left.
+Now eliminating candidates based on last bytes: removed 4255 files from list. 36280 files left.
+Now eliminating candidates based on sha1 checksum: removed 1960 files from list. 34320 files left.
+It seems like you have 34320 files that are not unique
+Totally, 51 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 19370 links.
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  590G  2.0T  23% /mnt/backup
+---- 04:21:34 05/02/2025 End of disk usage
