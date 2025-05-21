@@ -13249,3 +13249,8 @@ Please be advised that the High Performance Computing (HPC) system will be shut 
 This shutdown is necessary to allow for major upgrades including OS upgrade, HPC management system, 
 Security enhancement.  
 ---- 04:01:40 05/20/2025 End of hpc backup
+
+---- 04:00:01 05/21/2025 Starting faust backup
+---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
+---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 05:08:53 05/21/2025 End of faust backup
