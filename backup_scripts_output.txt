@@ -13361,3 +13361,4 @@ The University will prosecute violators to the full extent of the law.
 ---- 04:00:01 06/04/2025 Starting faust backup
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 06:17:38 06/04/2025 End of faust backup
