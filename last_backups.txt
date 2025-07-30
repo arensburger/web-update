@@ -1,3 +1,9 @@
+---- 04:00:01 07/30/2025 Starting faust backup
+---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
+---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 05:14:18 07/30/2025 End of faust backup
+
+
 ---- 04:00:01 07/29/2025 Starting hpc backup
 ---- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
 ---- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
@@ -8,6 +14,7 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:02:53 07/29/2025 End of hpc backup
+
 
 
 ---- 04:00:01 07/24/2025 Starting traviata backup
@@ -47,13 +54,6 @@ Making 47706 links.
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  720G  1.9T  28% /mnt/backup
 ---- 04:39:35 07/25/2025 End of disk usage
-
-
-
----- 04:00:01 07/23/2025 Starting faust backup
----- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
----- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
----- 05:34:07 07/23/2025 End of faust backup
 
 
 
