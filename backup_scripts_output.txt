@@ -13897,3 +13897,8 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:58 08/12/2025 End of hpc backup
+
+---- 04:00:01 08/13/2025 Starting faust backup
+---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
+---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 05:14:07 08/13/2025 End of faust backup
