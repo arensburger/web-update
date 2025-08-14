@@ -13902,3 +13902,11 @@ The University will prosecute violators to the full extent of the law.
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 05:14:07 08/13/2025 End of faust backup
+
+---- 04:00:01 08/14/2025 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+ssh: connect to host traviata port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(232) [Receiver=3.2.7]
+---- 04:00:15 08/14/2025 End of traviata backup
