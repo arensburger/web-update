@@ -13943,3 +13943,34 @@ Making 47488 links.
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  723G  1.9T  28% /mnt/backup
 ---- 04:35:04 08/15/2025 End of disk usage
+
+---- 15:15:54 08/22/2025 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+Now scanning "/mnt/backup/traviata", found 7307 files.
+Now have 7307 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 3458672299 bytes or 3 GiB
+Removed 3433 files due to unique sizes from list. 3874 files left.
+Now eliminating candidates based on first bytes: removed 3476 files from list. 398 files left.
+Now eliminating candidates based on last bytes: removed 16 files from list. 382 files left.
+Now eliminating candidates based on sha1 checksum: removed 382 files from list. 0 files left.
+It seems like you have 0 files that are not unique
+Totally, 0 B can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 0 links.
+Now scanning "/mnt/backup/faust", found 293309 files.
+Now have 293309 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 408521044208 bytes or 380 GiB
+Removed 24462 files due to unique sizes from list. 268847 files left.
+Now eliminating candidates based on first bytes: 
+---- 15:17:51 08/22/2025 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+
+---- 15:18:32 08/22/2025 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 15:18:51 08/22/2025 End of traviata backup
