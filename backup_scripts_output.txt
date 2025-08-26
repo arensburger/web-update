@@ -13974,3 +13974,14 @@ Now eliminating candidates based on first bytes:
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 15:18:51 08/22/2025 End of traviata backup
+
+---- 04:00:01 08/26/2025 Starting hpc backup
+---- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
+---- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
+
+Unauthorized use of Cal Poly Pomona computer and networking resources is
+prohibited. If you log on to this computer system, you acknowledge your
+awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
+The University will prosecute violators to the full extent of the law.
+
+---- 04:00:42 08/26/2025 End of hpc backup
