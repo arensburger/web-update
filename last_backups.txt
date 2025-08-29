@@ -3,6 +3,39 @@
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:00:02 08/28/2025 End of traviata backup
 
+---- 04:00:01 08/29/2025 Disk usage on boheme for /mnt/backup
+---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
+---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
+Now scanning "/mnt/backup/traviata", found 9413 files.
+Now have 9413 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 6114621166 bytes or 6 GiB
+Removed 2056 files due to unique sizes from list. 7357 files left.
+Now eliminating candidates based on first bytes: removed 2751 files from list. 4606 files left.
+Now eliminating candidates based on last bytes: removed 16 files from list. 4590 files left.
+Now eliminating candidates based on sha1 checksum: removed 382 files from list. 4208 files left.
+It seems like you have 4208 files that are not unique
+Totally, 2 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 2106 links.
+Now scanning "/mnt/backup/faust", found 333196 files.
+Now have 333196 files in total.
+Removed 0 files due to nonunique device and inode.
+Total size is 471210550537 bytes or 439 GiB
+Removed 17793 files due to unique sizes from list. 315403 files left.
+Now eliminating candidates based on first bytes: removed 249212 files from list. 66191 files left.
+Now eliminating candidates based on last bytes: removed 5089 files from list. 61102 files left.
+Now eliminating candidates based on sha1 checksum: removed 4118 files from list. 56984 files left.
+It seems like you have 56984 files that are not unique
+Totally, 70 GiB can be reduced.
+Now making results file results.txt
+Now making symbolic links. creating 
+Making 39814 links.
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       2.7T  726G  1.9T  28% /mnt/backup
+---- 04:33:46 08/29/2025 End of disk usage
+
 
 ---- 04:00:01 08/27/2025 Starting faust backup
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
@@ -21,17 +54,6 @@ awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
 The University will prosecute violators to the full extent of the law.
 
 ---- 04:00:42 08/26/2025 End of hpc backup
-
-
-
----- 15:17:51 08/22/2025 Starting traviata backup
----- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
----- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
-
----- 15:18:32 08/22/2025 Starting traviata backup
----- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
----- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
----- 15:18:51 08/22/2025 End of traviata backup
 
 
 
