@@ -1,3 +1,11 @@
+---- 04:00:01 10/04/2025 Starting boheme backup
+---- Script: peter@boheme:/home/peter/scripts/run_boheme_backup.sh
+---- Description: syncing folders /home/peter and /mnt/backup with boheme at /mnt/boheme-backup without deletion of old stuff, excluding some files that are listed in boheme_exclude_list.txt
+rsync: [sender] opendir "/mnt/backup/lost+found" failed: Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.2.7]
+---- 04:08:11 10/04/2025 End of hpc backup
+
+
 ---- 04:00:01 10/02/2025 Starting traviata backup
 ---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
 ---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
@@ -35,6 +43,7 @@ Making 39993 links.
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  741G  1.9T  29% /mnt/backup
 ---- 04:30:26 10/03/2025 End of disk usage
+
 
 
 ---- 04:00:01 10/01/2025 Starting faust backup
