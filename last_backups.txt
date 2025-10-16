@@ -1,7 +1,14 @@
+---- 04:00:01 10/16/2025 Starting traviata backup
+---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
+---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
+---- 04:00:02 10/16/2025 End of traviata backup
+
+
 ---- 04:00:01 10/15/2025 Starting faust backup
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:43:30 10/15/2025 End of faust backup
+
 
 
 ---- 04:00:01 10/14/2025 Starting hpc backup
@@ -21,46 +28,6 @@ The University will prosecute violators to the full extent of the law.
 ---- Script: peter@boheme:/home/peter/scripts/run_boheme_backup.sh
 ---- Description: syncing folders /home/peter and /mnt/backup with boheme at /mnt/boheme-backup without deletion of old stuff, excluding some files that are listed in boheme_exclude_list.txt
 ---- 04:08:16 10/11/2025 End of hpc backup
-
-
-
----- 04:00:01 10/09/2025 Starting traviata backup
----- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh
----- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
----- 04:00:02 10/09/2025 End of traviata backup
-
----- 04:00:01 10/10/2025 Disk usage on boheme for /mnt/backup
----- Script: peter@boheme:/home/peter/scripts/disk_usage.sh
----- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup
-Now scanning "/mnt/backup/traviata", found 8389 files.
-Now have 8389 files in total.
-Removed 0 files due to nonunique device and inode.
-Total size is 5355331401 bytes or 5 GiB
-Removed 3974 files due to unique sizes from list. 4415 files left.
-Now eliminating candidates based on first bytes: removed 3814 files from list. 601 files left.
-Now eliminating candidates based on last bytes: removed 217 files from list. 384 files left.
-Now eliminating candidates based on sha1 checksum: removed 382 files from list. 2 files left.
-It seems like you have 2 files that are not unique
-Totally, 9 KiB can be reduced.
-Now making results file results.txt
-Now making symbolic links. creating 
-Making 1 links.
-Now scanning "/mnt/backup/faust", found 342649 files.
-Now have 342649 files in total.
-Removed 0 files due to nonunique device and inode.
-Total size is 470776587795 bytes or 438 GiB
-Removed 22120 files due to unique sizes from list. 320529 files left.
-Now eliminating candidates based on first bytes: removed 258804 files from list. 61725 files left.
-Now eliminating candidates based on last bytes: removed 5285 files from list. 56440 files left.
-Now eliminating candidates based on sha1 checksum: removed 4242 files from list. 52198 files left.
-It seems like you have 52198 files that are not unique
-Totally, 56 GiB can be reduced.
-Now making results file results.txt
-Now making symbolic links. creating 
-Making 39815 links.
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda2       2.7T  742G  1.9T  29% /mnt/backup
----- 04:30:52 10/10/2025 End of disk usage
 
 
 
