@@ -1,7 +1,20 @@
+---- 04:00:01 11/11/2025 Starting hpc backup
+---- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
+---- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
+
+Unauthorized use of Cal Poly Pomona computer and networking resources is
+prohibited. If you log on to this computer system, you acknowledge your
+awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
+The University will prosecute violators to the full extent of the law.
+
+---- 04:00:43 11/11/2025 End of hpc backup
+
+
 ---- 04:00:01 11/08/2025 Starting boheme backup
 ---- Script: peter@boheme:/home/peter/scripts/run_boheme_backup.sh
 ---- Description: syncing folders /home/peter and /mnt/backup with boheme at /mnt/boheme-backup without deletion of old stuff, excluding some files that are listed in boheme_exclude_list.txt
 ---- 04:08:35 11/08/2025 End of hpc backup
+
 
 
 ---- 04:00:01 11/06/2025 Starting traviata backup
@@ -48,19 +61,6 @@ Filesystem      Size  Used Avail Use% Mounted on
 ---- Script: peter@boheme:/home/peter/scripts/faust_backup.sh
 ---- Description: syncing folder /home/peter on faust with boheme at /mnt/backup/faust without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt
 ---- 04:43:26 11/05/2025 End of faust backup
-
-
-
----- 04:00:01 11/04/2025 Starting hpc backup
----- Script: peter@boheme:/home/peter/scripts/run_hpc_backup.sh
----- Description: syncing folder /home/arensburger on hpc with boheme at /mnt/backup/hpc without deletion of old stuff, excluding some files that are listed in hpc_exclude_list.txt
-
-Unauthorized use of Cal Poly Pomona computer and networking resources is
-prohibited. If you log on to this computer system, you acknowledge your
-awareness of and concurrence with the Cal Poly Pomona Acceptable Use Policy.
-The University will prosecute violators to the full extent of the law.
-
----- 04:00:41 11/04/2025 End of hpc backup
 
 
 
