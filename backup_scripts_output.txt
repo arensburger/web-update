@@ -14834,3 +14834,8 @@ Making 24081 links.
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2       2.7T  754G  1.9T  29% /mnt/backup
 ---- 04:20:22 12/05/2025 End of disk usage
+
+---- 04:00:01 12/06/2025 Starting boheme backup
+---- Script: peter@boheme:/home/peter/scripts/run_boheme_backup.sh
+---- Description: syncing folders /home/peter and /mnt/backup with boheme at /mnt/boheme-backup without deletion of old stuff, excluding some files that are listed in boheme_exclude_list.txt
+---- 04:10:11 12/06/2025 End of hpc backup
